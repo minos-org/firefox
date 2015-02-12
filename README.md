@@ -4,8 +4,15 @@ Mozilla Firefox is a free and open-source web browser developed for Windows, OS 
 
 ## Quick start
 
+### On Ubuntu (only LTS versions)
+
    ```
    $ sudo add-apt-repository ppa:minos-archive/main
-   $ sudo apt-get update
-   $ sudo apt-get install mozilla-firefox
+   $ sudo apt-get update && sudo apt-get install mozilla-firefox
    ```
+
+### On other Linux distributions
+
+1. Uncompress `tar jxf firefox${arch}.tar.bz2`
+
+1. Launch `./firefox${arch}/firefox`
