@@ -6,10 +6,19 @@ Mozilla Firefox is a free and open-source web browser developed for Windows, OS 
 
 ### On Ubuntu (only LTS versions)
 
+1. Set up the minos archive:
+
    ```
    $ sudo add-apt-repository ppa:minos-archive/main
+   ```
+
+2. Install:
+
+   ```
    $ sudo apt-get update && sudo apt-get install mozilla-firefox
    ```
+
+3. Enjoy ☺!
 
 ### On other Linux distributions
 
